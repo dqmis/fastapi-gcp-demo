@@ -10,6 +10,7 @@
 
 ## GCP Cloud Run
 
+- Login to GCloud with CLI: `gcloud auth login`
 - Set project id: `gcloud config set project <project_id>`
 - To build and push image to GCP Container Registry: `gcloud builds submit --tag gcr.io/<project_id>/<image_name>`
 - To deploy application run `gcloud run deploy`
