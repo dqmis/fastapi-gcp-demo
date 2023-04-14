@@ -1,4 +1,5 @@
 ## Setup gcloud cli
+
 - Install Google Cloud SDK on your local machine. Follow the instructions here: https://cloud.google.com/sdk/docs/install
 
 ## Docker
@@ -9,5 +10,6 @@
 
 ## GCP Cloud Run
 
+- Set project id: `gcloud config set project <project_id>`
 - To build and push image to GCP Container Registry: `gcloud builds submit --tag gcr.io/<project_id>/<image_name>`
 - To deploy application run `gcloud run deploy`
